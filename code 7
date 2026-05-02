@@ -1,0 +1,11 @@
+
+def sum(val1,val2):
+   total=val1+val2
+   print("inside the function",total)
+   return total
+total=sum(100,200)
+print("outside the function",total)
+
+inside the function 300
+outside the function 300
+
